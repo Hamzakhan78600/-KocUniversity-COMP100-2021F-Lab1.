@@ -11,9 +11,11 @@ rm ids.txt
 
 
 # Command for Q1
-
+Touch quiz.sh 
+Echo ‘#!/bin/sh’ >> quiz.sh
 # Command for Q2
-
+chmod a+rwx quiz.sh
 # Command for Q3
 
 # Command for Q4
+cp./profiles2020/*>>profiles2021
